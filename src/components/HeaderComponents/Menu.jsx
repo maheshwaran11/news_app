@@ -12,7 +12,7 @@ const Menu = () => {
 
     useEffect(() => {
         fetchAllCategories();
-      });
+      }, []);
     
     
       const fetchAllCategories = () => {
