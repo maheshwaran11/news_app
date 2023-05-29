@@ -26,9 +26,9 @@ const App = () => {
   
   return (
     <>
-    
+    <h1>Test</h1>
       {/* <RouterProvider router={router} /> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
           <Routes>
             <Route path='/' element={<Home />} key="0"></Route>
             <Route path='home' element={<Home />} key="1"></Route>
@@ -42,7 +42,7 @@ const App = () => {
             <Route path='newsDetails/:id/:title' element={<NewsDetails />}  key="6"></Route>
             <Route path='categories/:id/:title' element={<Categories />}  key="6"></Route>
           </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
