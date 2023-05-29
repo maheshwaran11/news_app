@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/news_app/static/css/main.d6d5557d.css",
-    "main.js": "/news_app/static/js/main.4eb2e1bf.js",
+    "main.js": "/news_app/static/js/main.4191dd9d.js",
     "static/js/787.998b4c01.chunk.js": "/news_app/static/js/787.998b4c01.chunk.js",
     "static/media/Logo.png": "/news_app/static/media/Logo.3b69dd94e4b55a822d5a.png",
     "static/media/roboto-all-500-normal.woff": "/news_app/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
@@ -41,11 +41,11 @@
     "static/media/youtube.svg": "/news_app/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
     "static/media/facebook.svg": "/news_app/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
     "main.d6d5557d.css.map": "/news_app/static/css/main.d6d5557d.css.map",
-    "main.4eb2e1bf.js.map": "/news_app/static/js/main.4eb2e1bf.js.map",
+    "main.4191dd9d.js.map": "/news_app/static/js/main.4191dd9d.js.map",
     "787.998b4c01.chunk.js.map": "/news_app/static/js/787.998b4c01.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6d5557d.css",
-    "static/js/main.4eb2e1bf.js"
+    "static/js/main.4191dd9d.js"
   ]
 }
