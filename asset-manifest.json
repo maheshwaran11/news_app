@@ -1,9 +1,8 @@
 {
   "files": {
-    "main.css": "/news_app/static/css/main.d6d5557d.css",
-    "main.js": "/news_app/static/js/main.61cf6409.js",
+    "main.css": "/news_app/static/css/main.b9347328.css",
+    "main.js": "/news_app/static/js/main.ae47d278.js",
     "static/js/787.998b4c01.chunk.js": "/news_app/static/js/787.998b4c01.chunk.js",
-    "static/media/Logo.png": "/news_app/static/media/Logo.3b69dd94e4b55a822d5a.png",
     "static/media/roboto-all-500-normal.woff": "/news_app/static/media/roboto-all-500-normal.0ab669b7a0d19b178f57.woff",
     "static/media/roboto-all-700-normal.woff": "/news_app/static/media/roboto-all-700-normal.a457fde362a540fcadff.woff",
     "static/media/roboto-all-400-normal.woff": "/news_app/static/media/roboto-all-400-normal.c5d001fa922fa66a147f.woff",
@@ -32,20 +31,17 @@
     "static/media/roboto-vietnamese-400-normal.woff2": "/news_app/static/media/roboto-vietnamese-400-normal.3230f9b040f3c630e0c3.woff2",
     "static/media/roboto-vietnamese-700-normal.woff2": "/news_app/static/media/roboto-vietnamese-700-normal.3425a701027d0699e369.woff2",
     "static/media/roboto-vietnamese-300-normal.woff2": "/news_app/static/media/roboto-vietnamese-300-normal.32fc45a3d1e8ea11fabc.woff2",
-    "static/media/whatsapp.svg": "/news_app/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "static/media/roboto-greek-ext-500-normal.woff2": "/news_app/static/media/roboto-greek-ext-500-normal.6fb9cffb1d3e72bf9293.woff2",
     "static/media/roboto-greek-ext-400-normal.woff2": "/news_app/static/media/roboto-greek-ext-400-normal.169619821ea93019d1bb.woff2",
     "static/media/roboto-greek-ext-300-normal.woff2": "/news_app/static/media/roboto-greek-ext-300-normal.35b9d6be04b95f0f0530.woff2",
     "static/media/roboto-greek-ext-700-normal.woff2": "/news_app/static/media/roboto-greek-ext-700-normal.bd9854c751441ccc1a70.woff2",
     "index.html": "/news_app/index.html",
-    "static/media/youtube.svg": "/news_app/static/media/youtube.6806408aa1bf55b7f1aaba51978e649e.svg",
-    "static/media/facebook.svg": "/news_app/static/media/facebook.5e1cb4b86ac3f872dadcbde3ed31cd4b.svg",
-    "main.d6d5557d.css.map": "/news_app/static/css/main.d6d5557d.css.map",
-    "main.61cf6409.js.map": "/news_app/static/js/main.61cf6409.js.map",
+    "main.b9347328.css.map": "/news_app/static/css/main.b9347328.css.map",
+    "main.ae47d278.js.map": "/news_app/static/js/main.ae47d278.js.map",
     "787.998b4c01.chunk.js.map": "/news_app/static/js/787.998b4c01.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6d5557d.css",
-    "static/js/main.61cf6409.js"
+    "static/css/main.b9347328.css",
+    "static/js/main.ae47d278.js"
   ]
 }
