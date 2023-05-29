@@ -26,9 +26,9 @@ const App = () => {
   
   return (
     <>
-      <Home />
+      {/* <Home /> */}
       {/* <RouterProvider router={router} /> */}
-      {/* <BrowserRouter>
+      
           <Routes>
             <Route path='/' exact element={<Home />} key="0"></Route>
             <Route path='home' element={<Home />} key="1"></Route>
@@ -42,7 +42,6 @@ const App = () => {
             <Route path='newsDetails/:id/:title' element={<NewsDetails />}  key="6"></Route>
             <Route path='categories/:id/:title' element={<Categories />}  key="6"></Route>
           </Routes>
-      </BrowserRouter> */}
     </>
   )
 }
