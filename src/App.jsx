@@ -30,7 +30,7 @@ const App = () => {
       {/* <RouterProvider router={router} /> */}
       <BrowserRouter>
           <Routes>
-            <Route path='/' element={<Home />} key="0"></Route>
+            <Route path='/' exact element={<Home />} key="0"></Route>
             <Route path='home' element={<Home />} key="1"></Route>
             <Route path='cinema' element={<Cinema />}  key="2"></Route>
             <Route path='contact' element={<About />}  key="3"></Route>
