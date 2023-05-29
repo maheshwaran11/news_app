@@ -1,38 +1,351 @@
-.App {
-  text-align: center;
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --lightBlue: hsla(199, 100%, 50%, 0.188);
+    --blue1: #007fff;
+    --gray1: #f4f4f4;
+    --red: #B71C1C;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-lightBlue {
+    background-color: var(--lightBlue);
+}
+.bg-red {
+    background-color: var(--blue1);
+}
+.bg-gray1 {
+    background-color: var(--gray1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.color-lightBlue {
+    color: var(--lightBlue);
+}
+.color-red {
+    color: var(--blue1);
+}
+.color-gray1 {
+    color: var(--gray1);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-fluid {
+    margin: auto;
+}
+.container {
+    margin: auto;
+    max-width: 1200px;
+}
+.row {
+    display: flex;
+}
+.col {
+    flex: 1;
+}
+.col-3 {
+    flex: 0 0 25%;
+}
+.col-4 {
+    flex: 0 0 33.33%;
+}
+.col-6 {
+    flex: 0 0 50%;
+}
+.col-8 {
+    flex: 0 0 66.66%;
+}
+.col-9 {
+    flex: 0 0 75%;
+}
+.col-12 {
+    flex: 0 0 100%;
 }
 
-.App-link {
-  color: #61dafb;
+img {
+    width: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+header {
+    /* position: relative; */
+}
+
+header.mobileMenuOpen:after {
+    position: absolute;
+    content: "";
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #00000061;
+    z-index: 1;
+}
+.logo img {
+    position: absolute;
+    top: 0;
+    background: #fff;
+    padding: 0px 30px;
+    width: 120px;
+}
+
+.socials a {
+    width: 36px;
+    display: inline-block;
+}
+
+.align-items-start {
+    align-items: start;
+}
+.align-items-center {
+    align-items: center;
+}
+.align-items-end {
+    align-items: end;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+
+.loginLink {
+    font-weight: 500;
+    padding: 10px 24px;
+    display: inline-block;
+    background: var(--red);
+    color: #fff;
+    line-height: 1;
+    border-radius: 20px;
+}
+
+.loginLink:hover {
+    opacity: .8;
+    color: #fff;
+}
+
+.menu a {
+    display: inline-flex;
+    padding: 8px 8px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+    margin: 0 16px;
+}
+
+.menu a:hover {
+    color: var(--blue1);
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: end;
+    border: 1px solid #ccc;
+    position: relative;
+    margin: 8px 0;
+}
+
+.searchContainer input {
+    border: none;
+    width: 100%;
+    outline: none;
+    border-radius: 40px;
+    padding: 8px 16px;
+    height: 24px;
+}
+
+.searchBtn button {
+    background: no-repeat;
+    border: none;
+    color: #7e7e7e;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.searchBtn button:before {
+    content: "";
+    width: 2px;
+    height: 24px;
+    background: #7e7e7e;
+    position: absolute;
+    left: 0;
+    top: 8px;
+}
+
+.breakingNewsContainer {
+    display: flex;
+    align-items: center;
+}
+
+.breakingNewsContainer h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    padding: 10px 10px 10px 0px;
+}
+
+.breakingNewsContainer > div {
+    display: flex;
+}
+
+.breakingNewsContainer p {
+    margin: 0;
+}
+
+.b-newsWrapper {
+    background: linear-gradient(45deg, #b600ff, #ff8000);
+    color: #fff;
+}
+
+.d-none, 
+.d-lg-none {
+    display: none;
+}
+
+
+.footerContainer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 5px;
+    margin-top: 50px;
+}
+.footerContainer p {
+    margin: 0;
+}
+.footerContainer a {
+    color: #fff;
+    font-weight: 500;
+}
+
+main {
+    position: relative;
+}
+
+.loadingWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loadingWrapper span {
+    font-size: 50px;
+    transition: .5s all;
+    animation: loader 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .d-md-none {
+        display: none;
+    }
+    .d-lg-none {
+        display: block;
+    }
+    .pt-mobile-50 {
+        padding-top: 50px;
+    }
+    .container {
+        padding: 0 10px;
+    }
+    .row {
+        display: block;
+    }
+    .col, .col-12, .col-3, .col-4, .col-6, .col-9, .col-8 {
+        flex: 100%;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        position: relative;
+        padding: 0;
+    }
+    .mobileMenuWrapper {
+        display: none;
+    }
+
+    .menuWrapper {
+        position: fixed;
+        left: 0;
+        right: 0;
+        background: #fff;
+        z-index: 2;
+    }
+
+    .mobileMenuWrapper {
+        display: block;
+        text-align: left;
+        position: fixed;
+        left: -100px;
+        width: 0;
+        top: 93px;
+        bottom: 0;
+        background: #fff;
+        transition: .5s all;
+        padding: 10px;
+    }
+    .mobileMenuOpen .mobileMenuWrapper {
+        left: 0;
+        right: 0;
+        width: 100%;
+    }
+    .loginwrapper {
+        text-align: left !important;
+    } 
+    .mobileMenuIcon {
+        position: absolute;
+        left: 10px;
+        top: 35px;
+        
+    }
+
+    .mobileMenuIcon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    
+    .mobileMenuIcon span {
+        font-size: 28px;
+    }
+
+    .searchContainer {
+        display: none;
+    } 
+
+    .searchBtnIcon {
+        position: absolute;
+        top: 32px;
+        right: 10px;
+    }
+    .searchBtnIcon button {
+        background: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    .mobileMenuWrapper .menu a {
+        display: block;
+        margin: 0;
+    }
+
 }
