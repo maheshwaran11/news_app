@@ -17,6 +17,7 @@ import Cinema from './pages/Cinema';
 import About from './pages/About';
 import NewsDetails from './pages/NewsDetails';
 import Categories from './pages/Categories';
+import NavBar from './components/NavBar';
 
 export const categoryImagePath = "https://tnsltu.in/newsAPI/Images/Categories/";
 export const newImagePath = "https://tnsltu.in/newsAPI/Images/News/";
@@ -28,7 +29,7 @@ const App = () => {
     <>
       {/* <Home /> */}
       {/* <RouterProvider router={router} /> */}
-      
+        <NavBar />
           <Routes>
             <Route path='/' exact element={<Home />} key="0"></Route>
             <Route path='home' element={<Home />} key="1"></Route>
