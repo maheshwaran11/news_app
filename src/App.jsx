@@ -29,7 +29,6 @@ const App = () => {
     <>
       {/* <Home /> */}
       {/* <RouterProvider router={router} /> */}
-        <NavBar />
           <Routes>
             <Route path='/' exact element={<Home />} key="0"></Route>
             <Route path='home' element={<Home />} key="1"></Route>

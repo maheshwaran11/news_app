@@ -7,7 +7,7 @@ const DefaultLayout = ({children}) => {
 
   return (
     <>
-        {/* <NavBar /> */}
+        <NavBar />
         <main>
             {children}
         </main>
