@@ -2,12 +2,12 @@ import React from 'react'
 import NavBar from '../../components/NavBar';
 import Footer from '../../components/Footer';
 
-const DefaultLayout = ({children}) => {
+const DefaultLayout = ({children}) => { 
 
 
   return (
     <>
-        <NavBar />
+        {/* <NavBar /> */}
         <main>
             {children}
         </main>
