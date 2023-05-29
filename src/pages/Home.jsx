@@ -35,7 +35,6 @@ const Home = () => {
 
 
   return (
-    <DefaultLayout>
         <section id='slider' className='pt-mobile-50'>
           <div className='container'>
 
@@ -61,7 +60,6 @@ const Home = () => {
 
           </div>
         </section>
-    </DefaultLayout>
   )
 }
 
